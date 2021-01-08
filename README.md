@@ -1,28 +1,28 @@
-# Pizza-Deliciosa
+# Softpark Pizza
 ## Author
 
-[Owiti-Charles](https://github.com/Owiti-Charles)
+[Charles-Ndugire](https://github.com/Charles-Ndugire)
 
 ### Version
-07.2019/001
+2021/001
 
 ## Description
 
-This is a web application for Pizza Deliciosa which is a pizza selling venture, that shows details about the services and diffent pizza they sell, their menu and also allows customers to order online for their preferred pizza depending on size, crust they need and also allows them to input a location which they would love the piza to be delivered to. 
+This is a web application for Softpark Pizza Shop  which is a pizza selling venture, that shows details about the services and different pizza they make, their menu and also allows customers to order online for their preferred pizza depending on size, crust they need and also allows them to input a location which they would love the pizza to be delivered to.
 
 ## Screenshot
 <img src="https://raw.githubusercontent.com/Owiti-Charles/Pizza-Deliciosa/master/images/pizzashop.png" width="900px" height="440px">
 
-## Live Page 
-https://Owiti-charles.github.io/Pizza-Deliciosa 
+## Live Page
+https://Owiti-charles.github.io/Pizza-Deliciosa
 
 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```https://github.com/Owiti-Charles/Pizza-Deliciosa.git```
+* git clone ```https://github.com/Charles-Ndugire/Pizza-shop```
 
-* cd Pizza-Deliciosa
+* cd Softpark Pizza
 
 * code . or atom . depending on the text editor of your choise.
 
@@ -32,31 +32,30 @@ https://Owiti-charles.github.io/Pizza-Deliciosa
 * [CSS](https://github.com/topics/css3)
 * [Bootstrap](https://github.com/topics/bootstrap)
 * [Javascript](https://github.com/topics/javascript)
-* markdown
+* [markdown]
 
 
 ## BDD
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Select pizza flavor  |   Chiken Tika |   Chicken Tika   |
-| Select piza size  | large, medium, small |  large  |
-| Select Crust   |  Either cripsy,stuffed or glutten-free  |     |
-| select toppings  |  check all the topppings you want     |     |
+|  Select pizza flavor  |   Chicken Tikka |   Chicken Tikka   |
+| Select pizza size  | large, medium, small |  large  |
+| Select Crust   |  Either crispy,stuffed or gluten-free  |     |
+| select toppings  |  check all the toppings you want     |     |
 | Press Proceed button |     | Table with your selections with the total price for that selection.|
 | Press add pizza button | pizza flavor,size, crust and toppings   | new selection added to the table|
 | Press Checkout |     | Your bill is ...  |
 | Press home delivery | Your name, phone number and delivery location     |  |
-| press place order| | We have recieved your order and it will be delivered to you with your name, place of delivery and amount to be paid.|
+| press place order| | We have recieved your order and it will be delivered to you under your name, place of delivery and the amount to be paid.|
 
-## Known Bugs
+##  Bugs fix
 
-* All toppings has the same price regardless of the pizza size
+*  Toppings has the same price regardless of the pizza size.
 
-## Contact Information 
+## Contact Information
 
-If you have any question or contributions that would better this app, please email me at [mikeycharlesm7@gmail.com]
+If you have any question or contributions that would better this project, please email me at [ndugirecharles@gmail.com]
 
 ## License
 * *MIT License:*
-* Copyright (c) 2019 **Owiti Charles**
-
+* Copyright (c) 2021 **Charles Ndugire**
