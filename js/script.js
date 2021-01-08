@@ -9,19 +9,15 @@ function Getpizza( name,size,crust,topping, total ){
 }
 
 
-// proceed button
+
 $(document).ready(function(){
-  // $("button.proceed").click(function(){
-  //   $("button.proceed").hide();
-  //   $("#information").hide();
-  //   $("div.choise").slideDown(1000);
-  // });
+
   $("button.proceed").click(function(event){
    let pname = $(".name option:selected").val();
    let psize = $("#size option:selected").val();
    let pcrust = $("#crust option:selected").val();
    let ptopping = [];
-   $.each($("input[name='toppings']:checked"), function(){            
+   $.each($("input[name='toppings']:checked"), function(){
        ptopping.push($(this).val());
    });
    console.log(ptopping.join(", "));
@@ -42,7 +38,7 @@ $(document).ready(function(){
        price = 600;
        console.log(price);
      default:
-       console.log("error"); 
+       console.log("error");
    }
    switch(pcrust){
       case "0":
@@ -58,7 +54,7 @@ $(document).ready(function(){
         crust_price = 180;
       break;
       default:
-        console.log("No price"); 
+        console.log("No price");
     }
     let topping_value = ptopping.length*50;
     console.log("toppins value" + topping_value);
@@ -68,7 +64,7 @@ $(document).ready(function(){
       $("button.proceed").show();
       $("#information").show();
       $("div.choise").hide();
-      alert("Please select pizza size and crust"); 
+      alert("Please select pizza size and crust");
     }
     else{
       $("button.proceed").hide();
@@ -86,14 +82,13 @@ $(document).ready(function(){
     $("#pizzacrust").html($("#crust option:selected").val());
     $("#pizzatopping").html(ptopping.join(", "));
     $("#totals").html(total);
-    
-// Add pizza button
+
     $("button.addPizza").click(function(){
       let pname = $(".name option:selected").val();
       let psize = $("#size option:selected").val();
       let pcrust = $("#crust option:selected").val();
       let ptopping = [];
-      $.each($("input[name='toppings']:checked"), function(){            
+      $.each($("input[name='toppings']:checked"), function(){
           ptopping.push($(this).val());
       });
       console.log(ptopping.join(", "));
@@ -113,7 +108,7 @@ $(document).ready(function(){
            price = 600;
            console.log(price);
          default:
-           console.log("error"); 
+           console.log("error");
        }
        switch(pcrust){
           case "0":
@@ -129,7 +124,7 @@ $(document).ready(function(){
             crust_price = 180;
           break;
           default:
-            console.log("No price"); 
+            console.log("No price");
         }
         let topping_value = ptopping.length*50;
         console.log("toppins value" + topping_value);
@@ -138,17 +133,17 @@ $(document).ready(function(){
 
         checkoutTotal = checkoutTotal + total;
         console.log(checkoutTotal);
-      // constractor function
+
       var newOrder = new Getpizza(pname, psize, pcrust,ptopping,total);
 
       $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">'+newOrder.crust + '</td><td id="pizzatopping">'+newOrder.topping+'</td><td id="totals">'+newOrder.total+'</td></tr>');
       console.log(newOrder);
-      
-      
+
+
 
     });
-    // Checkout button
-    $("button#checkout").click(function(){ 
+
+    $("button#checkout").click(function(){
       $("button#checkout").hide();
       $("button.addPizza").hide();
       $("button.deliver").slideDown(1000);
@@ -157,7 +152,7 @@ $(document).ready(function(){
       $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
     });
 
-    // home delivery button
+
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
       $(".choise h2").hide();
@@ -170,7 +165,7 @@ $(document).ready(function(){
       $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
     });
 
-    // when one clicks place order button
+    
     $("button#final-order").click(function(event){
       event.preventDefault();
 
@@ -184,7 +179,7 @@ $(document).ready(function(){
       let location = $("input#location").val();
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
-  
+
         $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
         $("#totalbill").hide();
         $("#finallmessage").slideDown(1200);
