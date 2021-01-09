@@ -24,7 +24,7 @@ https://Owiti-charles.github.io/Pizza-Deliciosa
 
 * cd Softpark Pizza
 
-* code . or atom . depending on the text editor of your choise.
+* code . or atom . depending on the text editor of your choice.
 
 ## Technologies Used
 
