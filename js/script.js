@@ -9,7 +9,6 @@ function Getpizza( name,size,crust,topping, total ){
 }
 
 
-
 $(document).ready(function(){
 
   $("button.proceed").click(function(event){
@@ -56,6 +55,7 @@ $(document).ready(function(){
       default:
         console.log("No price");
     }
+    
     let topping_value = ptopping.length*50;
     console.log("toppins value" + topping_value);
 
