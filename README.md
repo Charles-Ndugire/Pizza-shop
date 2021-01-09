@@ -54,12 +54,10 @@ https://charles-ndugire.github.io/pizza-shop/.
 
 *  Toppings bear the same price regardless of the pizza size.
 
-## Contact Information
+## Contact Information 
 
-If you have any question or contributions that would better this project, please email me at [ndugirecharles@gmail.com]
-
-Call [0707261561]
-
+* Email: [Email](email to : ndugirecharles@gmail.com)
+* Phone number: [Phone](tel: +254707261561 )
 ## License
-* *MIT License:*
+* *MIT License:* [MIT License](https://opensource.org/licenses/MIT)
 * Copyright (c) 2021 **Charles Ndugire**
