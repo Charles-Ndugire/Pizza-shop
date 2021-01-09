@@ -35,7 +35,7 @@ This is a web application for Softpark Pizza Shop  which is a pizza selling vent
 * [CSS](https://github.com/topics/css3)
 * [Bootstrap](https://github.com/topics/bootstrap)
 * [Javascript](https://github.com/topics/javascript)
-* [markdown]
+* markdown
 
 
 ## BDD
