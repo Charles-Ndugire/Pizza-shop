@@ -15,7 +15,8 @@ This is a web application for Softpark Pizza Shop  which is a pizza selling vent
 
 ## Live Page
 
-https://charles-ndugire.github.io/pizza-shop/.
+
+ [Softpark Pizza](https://charles-ndugire.github.io/pizza-shop/.)
 
 
 
