@@ -50,11 +50,13 @@ https://Owiti-charles.github.io/Pizza-Deliciosa
 
 ##  Bugs fix
 
-*  Toppings has the same price regardless of the pizza size.
+*  Toppings bear the same price regardless of the pizza size.
 
 ## Contact Information
 
 If you have any question or contributions that would better this project, please email me at [ndugirecharles@gmail.com]
+
+Call [0707261561]
 
 ## License
 * *MIT License:*
