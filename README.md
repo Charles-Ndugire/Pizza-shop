@@ -14,7 +14,9 @@ This is a web application for Softpark Pizza Shop  which is a pizza selling vent
 <img src="https://raw.githubusercontent.com/Owiti-Charles/Pizza-Deliciosa/master/images/pizzashop.png" width="900px" height="440px">
 
 ## Live Page
-https://Owiti-charles.github.io/Pizza-Deliciosa
+
+https://charles-ndugire.github.io/pizza-shop/.
+
 
 
 ## Installation / Setup instruction
