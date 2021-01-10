@@ -10,8 +10,7 @@
 
 This is a web application for Softpark Pizza Shop  which is a pizza selling venture, that shows details about the services and different pizza they make, their menu and also allows customers to order online for their preferred pizza depending on size, crust they need and also allows them to input a location which they would love the pizza to be delivered to.
 
-## Screenshot
-<img src="https://github.com/Charles-Ndugire/pizza-shop/blob/master/images/screenshot.png" 900px" height="440px">
+
 
 ## Live Page
 
